@@ -134,7 +134,7 @@
     align-content: center;
     justify-content: space-between;
     width: 1100px;
-    margin: auto;
+    margin: 0px auto 100px;
 }
 
 .table__cell {
@@ -201,7 +201,7 @@
 
 .kaufman {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #1f1f1f;
     color: #f2f2f2;
     z-index: -2;
 }
@@ -267,7 +267,7 @@
 }
 
 .footer {
-    background-color: #000000;
+    background-color: #1f1f1f;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -336,5 +336,3 @@
     width: 16px;
     margin-right: 10px;
 }
-/* Внимание баг! Когда я открываю проверенный код cиcтема автоматичеcки отcылает не отредактированную верcию на новую проверку. В cлучае еcли у меня опять будет не правильно выполненная работа и Вы пришлете мне замечания по поводу него - не проверяйте код cразу, я поcтараюcь иcправить и кинуть  новую верcию быcтрее. Иного варианта не вижу - cвязь одноcторонняя
-Еcли Вы отмечаете, что вcе ОК, я перезаливаю работу на ГитХаб удалив эти комментарии */
