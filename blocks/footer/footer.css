@@ -1,0 +1,74 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__column/_content_copyright/footer__column_content_copyright.css);
+@import url(./__column/_content_info/footer__column_content_info.css);
+@import url(./__column/_content_social/footer__column_content_social.css);
+@import url(./__author/footer__author.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-links/footer__column-links.css);
+@import url(./__social-icon/footer__social-icon.css);
+
+.footer {
+    background-color: #1f1f1f;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    list-style: none;
+}
+
+.footer__columns {
+    color: #f2f2f2;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 711px;
+    width: 90%;
+    margin: auto;
+}
+
+.footer__column_content_copyright {
+    width: 50%;
+}
+
+.footer__author {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 18px;
+    left: 0px;
+    margin: 0px;
+}
+
+.footer__column_content_info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px auto 20px 0px;
+}
+
+.footer__column-links {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.footer__social-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}

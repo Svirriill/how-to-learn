@@ -1,0 +1,41 @@
+@import url(./__item/cards__item.css);
+@import url(./__image/cards__image.css);
+@import url(./__title/cards__title.css);
+@import url(./__description/cards__description.css);
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-column-gap: 100px;
+    width: 920px;
+    margin: auto;
+}
+
+.cards__item {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.cards__image {
+    height: 160px;
+    width: 160px;
+    margin: 0px 40px 43px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}

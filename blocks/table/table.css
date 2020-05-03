@@ -1,0 +1,70 @@
+@import url(./__cell/table__cell.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+@import url(./__text2/table__text2.css);
+@import url(./_theme_dark/table_theme_dark.css);
+@import url(./__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(./__heading/_theme_dark/table__heading_theme_dark.css);
+@import url(./__text/_theme_dark/table__text_theme_dark.css);
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0px auto 100px;
+}
+
+.table__cell {
+    width: 250px;
+    margin-top: 60px;
+}
+
+.table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.table__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.table__text2 {
+    margin-top: 20px;
+}
+
+.table_theme_dark {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0px auto 90px;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: #f2f2f2;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.table__text_theme_dark {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
