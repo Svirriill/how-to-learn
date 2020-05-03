@@ -1,22 +1,7 @@
-@import url(./_place_header/logo_place_header.css);
-@import url(./_place_footer/logo_place_footer.css);
+@import url(./_place/logo_place_header.css);
+@import url(./_place/logo_place_footer.css);
 
 .logo {
     height: 32px;
-    width: 185px;
-}
-
-.logo_place_header {
-    background-image: url(../../images/logo_place_header.svg);
-    position: absolute;
-    top: 30px;
-    left: 64px;
-}
-
-.logo_place_footer {
-    background-image: url(../../images/logo_place_footer.svg);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
+    width: 183px;
 }

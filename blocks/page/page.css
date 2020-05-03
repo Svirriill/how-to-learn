@@ -6,8 +6,3 @@
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.page__link:hover {
-    opacity: 0.6;
-    transition: opacity 2s linear;
-}
